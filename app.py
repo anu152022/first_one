@@ -1,9 +1,9 @@
 import streamlit as st
 
-options =  ['Apple', 'Mango']
+options =  ['Vlog no copyright', 'Background music']
 st.sidebar.selectbox('Options', options)
 st.title('Hello Anumi')
-st.write('This is my first web application')
+st.write('These are my favourite musics')
 
 
 # video_file = open('Lemon - 82602.mp4')
