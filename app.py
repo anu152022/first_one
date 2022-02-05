@@ -13,16 +13,4 @@ days = st.sidebar.slider('Pick your number of music', min_value=1,max_value=50)
 
 # st.video(video_bytes)
 
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url("https://images.app.goo.gl/LFCobouKtT7oZ7Qv7")
-    }
-   .sidebar .sidebar-content {
-        background: url("https://images.app.goo.gl/LFCobouKtT7oZ7Qv7")
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+st.video('https://www.youtube.com/watch?v=cGOVqcAzh_8&list=RDcGOVqcAzh_8&start_radio=1')
